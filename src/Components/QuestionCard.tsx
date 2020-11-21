@@ -37,3 +37,10 @@ const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback
                         )
                     })
                 }
+<input type="submit" className="submit"/>
+            </form>
+        </div>
+    )
+}
+
+export default QuestionCard;
